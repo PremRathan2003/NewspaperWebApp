@@ -17,7 +17,7 @@ const ArticleDetail = () => {
         <p><strong>Author:</strong> {article.author}</p>
         <p><strong>Published Date:</strong> {article.publishedDate}</p>
         </div>
-        <Link to="/" className="back-button">&larr; Back</Link>
+        <Link to="/NewspaperWebApp" className="back-button">&larr; Back</Link>
       </div>
       <img className="article-image" src={article.imageUrl} alt={article.title} />
       <p className="article-content">{article.content}</p>
